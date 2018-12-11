@@ -1,0 +1,305 @@
+/* 抽奖模块 */
+
+.mgday-birth {
+  margin: 0 auto;
+  position: relative;
+}
+
+.mgday-birth-title {
+  width: 6.62rem;
+  height: .6rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  background-image: url(../images/title-bg.png);
+  background-size: 100% 100%;
+  font-size: .32rem;
+  line-height: .6rem;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.birth-title {
+  width: 87.4%;
+  height: 1.25rem;
+  margin: 0 auto;
+  position: relative;
+  z-index: 12;
+}
+
+.birth-main-wrapper {
+  background-image: url('../images/birth-bg.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-top: 0.4rem;
+}
+
+.birth-main {
+  width: 92%;
+  position: relative;
+  z-index: 20;
+  padding: .24rem .28rem .28rem .28rem;
+}
+
+.birth-content {
+  padding: .34rem;
+}
+
+.birth-main-list {
+  display: flex;
+}
+
+.birth-main-item {
+  width: 1.92rem;
+  height: 1.32rem;
+  background-color: #fff;
+  border-radius: .08rem;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.birth-video img,
+.birth-music img,
+.birth-read img {
+  width: 1.28rem;
+  height: .32rem;
+}
+
+.birth-coffee img {
+  width: .76rem;
+  height: 1.08rem;
+}
+
+.birth-ticket img {
+  width: 1.05rem;
+  height: .48rem;
+}
+
+.birth-kindle img {
+  width: .66rem;
+  height: .63rem;
+}
+
+.birth-headphone img {
+  width: 1.34rem;
+  height: .47rem;
+}
+
+.birth-thanks img {
+  width: .59rem;
+  height: .55rem;
+}
+
+.birth-scales img {
+  width: .69rem;
+  height: .69rem;
+}
+
+.birth-main-item__title {
+  height: .90rem;
+  line-height: .90rem;
+  z-index: 10;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.birth-main-item__title img {
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+.birth-main-item__desc {
+  line-height: 1;
+  z-index: 10;
+  font-size: .24rem;
+  color: #D2B0F4;
+  transform: scale(0.8);
+  -webkit-transform: scale(0.8);
+  position: relative;
+}
+
+.birth-main-item__border {
+  position: absolute;
+  top: -0.04rem;
+  left: -0.04rem;
+  right: -0.04rem;
+  bottom: -0.04rem;
+  background-image: url('../images/wrapper.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  visibility: hidden;
+  z-index: 9;
+}
+
+.birth-main-item.active .birth-main-item__border {
+  visibility: visible;
+}
+
+.birth-main-lotty {
+  width: 1.92rem;
+  height: 2.76rem;
+  background: linear-gradient(0deg, rgba(252, 211, 64, 1) 0%, rgba(248, 174, 75, 1) 100%);
+  border-radius: .08rem;
+  position: relative;
+}
+
+.birth-main-lotty__top {
+  position: absolute;
+  top: .11rem;
+  left: .31rem;
+  width: .56rem;
+  height: .03rem;
+}
+
+.birth-main-lotty__bottom {
+  position: absolute;
+  bottom: .11rem;
+  right: .11rem;
+  width: .03rem;
+  height: .29rem;
+}
+
+.birth-main-lotty__word {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: .42rem;
+  font-weight: 400;
+  color: rgba(254, 254, 254, 1);
+  line-height: .6rem;
+  text-shadow: 0px 2px 5px rgba(221, 108, 10, 0.71);
+  width: 100%;
+}
+
+.birth-main-lotty__word.zero {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.birth-main-lotty__word.disabled {
+  opacity: 0.5;
+  width: 1.92rem;
+  pointer-events: none;
+}
+
+.birth-main-lotty__word.disabled .tomorrow {
+  font-size: .28rem;
+}
+
+.birth-main-lotty__word .lotty-span {
+  margin-left: -0.08rem;
+}
+
+.birth-main-list:first-child {
+  margin-top: 0.04rem;
+}
+
+.birth-main-list+.birth-main-list {
+  margin-top: .14rem;
+}
+
+.birth-main-list-two {
+  margin-left: .07rem;
+  margin-right: .07rem;
+}
+
+.birth-main-list-two .birth-main-item:nth-child(2n+2) {
+  margin-top: .16rem;
+}
+
+.birth-main-lotty {
+  margin-left: .07rem;
+  margin-right: .07rem;
+}
+
+/* 抽奖轮播模块 */
+
+.birth-foot {
+  padding-top: .2rem;
+}
+
+.birth-foot-carousel {
+  height: 16px;
+  line-height: 16px;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+.birth-foot-carousel li {
+  font-weight: 500;
+  color: rgba(224, 203, 253, 1);
+  height: 16px;
+  line-height: 16px;
+  font-size: 13px;
+  text-align: center;
+  color: #7271F2;
+}
+
+.birth-foot-btn {
+  position: relative;
+  height: .76rem;
+  margin-top: .36rem;
+}
+
+.birth-foot-btn .word,
+.birth-foot-btn .present {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  width: 88%;
+  height: .76rem;
+  border-radius: .38rem;
+  background: linear-gradient(90deg, rgba(238, 77, 108, 1) 0%, rgba(254, 117, 83, 1) 100%);
+  ;
+  font-size: .36rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  line-height: .76rem;
+}
+
+.btn-foot-btn .present {
+  display: none;
+}
+
+.birth-foot-tip {
+  height: .25rem;
+  font-size: .26rem;
+  font-weight: 400;
+  color: #7271F2;
+  line-height: .34rem;
+  text-align: center;
+  margin-top: .36rem;
+}
+
+.limit-page {
+  margin: 0 auto;
+  text-align: center;
+  border-top: 1px solid rgba(226, 233, 237, 1);
+}
+
+.limit-logo {
+  margin-top: 1.76rem;
+  width: 2.6rem;
+  height: 2.7rem;
+}
+
+.limit-word {
+  margin-top: .2rem;
+  font-size: .28rem;
+  color: rgba(37, 40, 38, 1);
+  line-height: .36rem;
+}
+
+.limit-refresh {
+  width: 2.5rem;
+  height: .76rem;
+  margin-top: .5rem;
+}

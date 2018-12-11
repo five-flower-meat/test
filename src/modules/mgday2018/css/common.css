@@ -1,0 +1,71 @@
+.mgday-bar {
+  height: 0.88rem;
+  line-height: 0.88rem;
+  text-align: center;
+  position: relative;
+  background: #fff;
+}
+
+.mgday-bar__icon {
+  position: absolute;
+  left: 0.3rem;
+  top: 0.1rem;
+  width: 0.18rem;
+}
+
+.mgday-bar__word {
+  font-size: 0.36rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 强制修改ios-dialog样式 */
+
+.ios-dialog-confirm,
+.ios-dialog-left,
+.ios-dialog-right {
+  color: #7415C4 !important;
+}
+
+.ios-dialog-child {
+  font-size: 13px;
+  color: #727171;
+  margin-top: 8px;
+}
+
+/* 活动规则样式 */
+
+.dialog-reg-title {
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+.dialog-reg-desc {
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  font-size: 13px;
+  color: rgba(114, 113, 113, 1);
+  text-align: left;
+  padding: 0 5px;
+}
+
+.dialog-reg-left {
+  width: 70px;
+}
+
+.dialog-reg-right {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1; 
+}
+
+.ios-dialog-desc{
+  /* 防止超出 */
+  max-height: 70vh;
+  overflow-y: auto;
+}

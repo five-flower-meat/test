@@ -1,0 +1,17 @@
+[
+  {
+    "url": "/migu/tjMarket/querySignWinningDetail.action",
+    "desc": "咪咕有礼赠接口",
+    "mock": true,
+    "res": {
+      "data": {
+        "signTotal": "1",
+        "signToday": "0",
+        "winningList": [
+        ]
+      },
+      "return_code": "200",
+      "return_msg": "成功"
+    }
+  }
+]

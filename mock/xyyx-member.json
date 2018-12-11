@@ -1,0 +1,101 @@
+[
+  {
+    "url": "/migu/campusChild/sendValidCode.action",
+    "desc": "校园营销接口",
+    "mock": true,
+    "res": {
+      "data": {
+        "records": [
+          {
+            "phone": "13404129204",
+            "memberType": 1,
+            "chargeState": "2"
+          },
+          {
+            "phone": "13404129204",
+            "memberType": 4,
+            "chargeState": "2"
+          },
+          {
+            "phone": "13404129204",
+            "memberType": 5,
+            "chargeState": "2"
+          },
+          {
+            "phone": "13404129204",
+            "memberType": 7,
+            "chargeState": "1"
+          }
+        ]
+      },
+      "return_code": "200",
+      "return_msg": "成功"
+    }
+  },
+  {
+    "url": "/migu/campusChild/queryCampusChild.action",
+    "desc": "校园营销接口",
+    "mock": true,
+    "res": {
+      "data": {
+        "records": [
+          {
+            "phone": "13404129204",
+            "memberType": 1,
+            "chargeState": "2"
+          },
+          {
+            "phone": "13404129204",
+            "memberType": 4,
+            "chargeState": "2"
+          },
+          {
+            "phone": "13404129204",
+            "memberType": 5,
+            "chargeState": "2"
+          },
+          {
+            "phone": "13404129204",
+            "memberType": 7,
+            "chargeState": "1"
+          }
+        ]
+      },
+      "return_code": "200",
+      "return_msg": "成功"
+    }
+  },
+  {
+    "url": "/migu/campusChild/checkValidCode.action",
+    "desc": "校园营销接口",
+    "mock": true,
+    "res": {
+      "data": {
+        "records": [
+          {
+            "phone": "13404129204",
+            "memberType": 1,
+            "chargeState": "2"
+          },
+          {
+            "phone": "13404129204",
+            "memberType": 4,
+            "chargeState": "2"
+          },
+          {
+            "phone": "13404129204",
+            "memberType": 5,
+            "chargeState": "2"
+          },
+          {
+            "phone": "13404129204",
+            "memberType": 7,
+            "chargeState": "1"
+          }
+        ]
+      },
+      "return_code": "200",
+      "return_msg": "成功"
+    }
+  }
+]

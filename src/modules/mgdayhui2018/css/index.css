@@ -1,0 +1,446 @@
+.mgday-main {
+  background: linear-gradient(to bottom, #000000 0%, #0D231F 25%, #0D231F 100%);
+}
+
+.banner {
+  display: block;
+  width: 100%;
+  height: 4.7rem;
+  background-image: url('../images/banner.png');
+  background-size: 100% 6.37rem;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/*折扣展示模块*/
+
+.activity-reg {
+  position: absolute;
+  bottom: 0.43rem;
+  width: 60%;
+  transform: translate(35%, 0);
+  height: 0.32rem;
+}
+
+.share-btn {
+  display: none;
+  position: absolute;
+  top: 1.1rem;
+  right: 0rem;
+  width: 0.76rem;
+  height: 0.32rem;
+}
+
+.discount-cell {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 0.3rem;
+  width: 92%;
+  border-radius: 0.1rem;
+  background: rgba(20, 56, 56, 1);
+  border: 1px solid rgba(128, 89, 20, 1);
+  position: relative;
+  background-blend-mode: overlay;
+}
+
+.discount-title {
+  width: 5.8rem;
+  height: 0.7rem;
+  background: linear-gradient(90deg, rgba(143, 103, 45, 1) 0%, rgba(207, 154, 62, 1) 35%, rgba(207, 154, 62, 1) 65%, rgba(143, 103, 45, 1) 100%) !important;
+  border-radius: 0.36rem;
+  color: #FFF5E3;
+  font-size: .32rem;
+  line-height: .7rem;
+  text-align: center;
+  position: absolute;
+  top: -0.3rem;
+  left: 50%;
+  transform: translate(-50%);
+  overflow: hidden;
+}
+
+.discount-content-cell {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.68rem;
+  margin-bottom: 0.38rem;
+  padding-top: 0.2rem;
+  width: 92%;
+  height: 1.774rem;
+  background: linear-gradient(to right, #CC973E 0%, #B48437 100%);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 99px;
+  border-bottom-right-radius: 99px;
+  border-bottom-left-radius: 30px;
+  overflow: hidden;
+}
+
+.subtract-marign {
+  margin-top: 0rem;
+}
+
+.discount-content-img-cell {
+  float: left;
+  width: 1.40rem;
+  height: 1.40rem;
+  border-radius: 0.2rem;
+  margin-left: 0.3rem;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.discount-content__font {
+  float: left;
+  margin-left: 0.16rem;
+  margin-top: 0.143rem;
+  font-size: 0.3rem;
+  font-family: TRENDS;
+  font-weight: 400;
+  color: rgba(255, 245, 227, 1);
+  line-height: 0.4rem;
+}
+
+/* .discount-content__title {
+  width: 2.413rem;
+  height: 0.363rem;
+} */
+
+.discount-content__font p {
+  font-size: 0.24rem;
+  line-height: 0.34rem;
+  opacity: 0.88;
+  padding-top: 0.1rem;
+  color: rgba(255, 245, 227, 1);
+  text-align: left;
+
+}
+
+.discount-content__circle {
+  float: right;
+  margin-top: -0.03rem;
+  margin-right: 0.24rem;
+  width: 1.62rem;
+  height: 1.62rem;
+  background: linear-gradient(-42deg, rgba(146, 105, 45, 1) 0%, rgba(223, 184, 124, 1) 100%);
+  box-shadow: 1px 3px 3px 0px rgba(93, 66, 19, 0.69);
+  border-radius: 50%;
+  position: relative;
+}
+
+.discount-content__circle_price {
+  z-index: 1;
+  position: absolute;
+  top: 0.5rem;
+  left: 0.15rem;
+  font-size: 0.3rem;
+  font-weight: 400;
+  color: rgba(255, 245, 227, 1);
+  line-height: 0.36rem;
+  text-shadow: 0rem 0.02rem 0.06rem rgba(126, 88, 49, 0.31);
+}
+
+.discount-content__circle_discprice {
+  z-index: 0;
+  position: absolute;
+  top: 0.96rem;
+  left: 0.34rem;
+  color: rgba(255, 245, 227, 1);
+  font-size: 0.22rem;
+  text-decoration: line-through;
+  text-decoration-color: #A1742B;
+}
+
+/* 答题小游戏入口 */
+.enter-answer-game__img {
+  width: 90%;
+  height: 1.96rem;
+  margin: 0.56rem auto;
+  background-image: url('../images/idot-banner.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+/*咪咕音乐特权大升级模块*/
+.music-update {
+  width: 100%;
+  height: 14.3rem;
+  margin-top: 0.6rem;
+}
+
+.member-update-title {
+  width: 100%;
+  height: 0.9rem;
+  background: linear-gradient(90deg, rgba(143, 103, 45, 1) 0%, rgba(207, 154, 62, 1) 35%, rgba(207, 154, 62, 1) 65%, rgba(143, 103, 45, 1) 100%) !important;
+  background-size: 100% 100%;
+  /* justify-content: center;
+  align-items: center; */
+  position: relative;
+}
+
+.member-update-title-main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+.member-update-title__sign {
+  width: 0.3rem;
+  height: 0.3rem;
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 0.06rem;
+}
+
+.member-update-title__font {
+  font-size: 0.34rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  text-shadow: 0px 4px 6px rgba(30, 0, 60, 0.45);
+  opacity: 0.82;
+  margin-left: .1rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.music-update-content-cell {
+  margin: 0.45rem auto;
+  width: 92%;
+  height: 2.07rem;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-size: cover;
+  box-sizing: border-box;
+  background-image: url('../images/music-update-cell-bg.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.short {
+  margin-top: -0.15rem;
+}
+
+.left-decoration {
+  float: left;
+  position: relative;
+  left: 0.23rem;
+}
+
+.right-decoration {
+  float: left;
+  position: relative;
+  left: 6.2rem;
+}
+
+.music-update-content-cell__decoration {
+  top: -0.53rem;
+  width: 0.12rem;
+  height: 0.71rem;
+  background-image: url('../images/decoration.png');
+  background-repeat: no-repeat;
+  background-size: 0.12rem 0.71rem;
+}
+
+.music-update-content-cell__short-decoration {
+  top: -0.38rem;
+  width: 0.12rem;
+  height: 0.56rem;
+  background-image: url('../images/decoration.png');
+  background-repeat: no-repeat;
+  background-size: 0.12rem 0.56rem;
+}
+
+.music-update-content__img {
+  float: left;
+  position: relative;
+  width: 1.4rem;
+  height: 1.4rem;
+  top: 0.28rem;
+  left: 0.15rem;
+}
+
+.music-update-content__title {
+  float: left;
+  position: relative;
+  top: 0.4rem;
+  left: 0.45rem;
+  color: rgba(255, 245, 227, 1);
+  font-size: 0.28rem;
+  font-weight: 400;
+  text-shadow: 0px 2px 5px rgba(221, 10, 108, 0.35);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 5rem;
+}
+
+.text-decline {
+  margin-top: 0.15rem;
+}
+
+.music-update-content__font {
+  float: left;
+  position: relative;
+  top: 0.5rem;
+  left: 0.45rem;
+  width: 4.2rem;
+  height: 0.55rem;
+  font-size: 0.24rem;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #DCB36B;
+  line-height: 0.34rem;
+}
+
+/*广告标语子模块*/
+
+.advertising-slogan-cell {
+  width: 100%;
+  height: 1.58rem;
+}
+
+.slogan-linear-cell {
+  width: 100%;
+  height: 0.6rem;
+  font-size: 0.25rem;
+  font-weight: 400;
+}
+
+.left-slogan-linear {
+  float: left;
+  text-align: right;
+  width: 42%;
+  color: #fff;
+}
+
+.middle-slogan-linear_crown {
+  position: relative;
+  top: -0.2rem;
+  left: 0.25rem;
+  width: 0.71rem;
+  height: 0.71rem;
+}
+
+.ringht-slogan-linear {
+  float: right;
+  width: 42%;
+  color: #fff;
+}
+
+/*咪咕阅读模块*/
+
+.migu-read-member {
+  width: 100%;
+  margin-top: 0.15rem;
+  margin-bottom: 0.3rem;
+}
+
+.relocate-sign {
+  left: 1.24rem;
+}
+
+.relocate-font {
+  left: 1.35rem;
+}
+
+.migu-read-subtitle {
+  width: 100%;
+  height: 0.7rem;
+  text-align: center;
+  padding-top: 0.25rem;
+  font-size: 0.26rem;
+  font-weight: 400;
+  color: rgba(86, 163, 170, 1);
+  line-height: 0.40rem;
+}
+
+.migu-read-member-main {
+  margin: 0rem auto;
+  width: 92%;
+  height: 9.72rem;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-size: cover;
+  box-sizing: border-box;
+  background-image: url('../images/mg-read-mian-bg.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.migu-read-bar {
+  height: 3.01rem;
+}
+
+.top-migu-read-bar {
+  padding-top: 0.2rem;
+}
+
+.migu-read-bar-title {
+  position: relative;
+  top: 0.2rem;
+  width: 100%;
+  height: 0.91rem;
+  text-align: center;
+  font-size: 0.3rem;
+  font-weight: 400;
+  color: rgba(255, 245, 227, 1);
+  line-height: 0.4rem;
+  text-shadow: 0px 0.02rem 0.06rem rgba(21, 76, 71, 0.35);
+}
+
+.migu-read-bar-content {
+  margin: 0 auto;
+  width: 6.14rem;
+  height: 2.10rem;
+  background: linear-gradient(-69deg, rgba(173, 133, 57, 1) 0%, rgba(202, 151, 61, 1) 100%);
+  border-radius: .18rem;
+}
+
+.migu-read-img-size {
+  width: 1.3rem;
+  height: 1.7rem;
+}
+
+.first-img-position {
+  position: relative;
+  top: 0.2rem;
+  left: 0.2rem;
+}
+
+.second-img-position {
+  position: relative;
+  top: 0.2rem;
+  left: 0.3rem;
+}
+
+.third-img-position {
+  position: relative;
+  top: 0.2rem;
+  left: 0.4rem;
+}
+
+.fourth-img-position {
+  position: relative;
+  top: 0.2rem;
+  left: 0.5rem;
+}
+
+.foot-message {
+  margin: 0 auto;
+  margin-top: 0.4rem;
+  width: 6.31rem;
+  height: 1.44rem;
+  font-size: 0.26rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  line-height: 0.4rem;
+  opacity: 0.88;
+  text-align: center;
+}

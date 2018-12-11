@@ -1,0 +1,76 @@
+.shar {
+  height: 100%;
+}
+
+.shar-main {
+  background-color: #7ecc98;
+  min-height: calc(100% - 1.28rem);
+  padding-bottom: .4rem;
+}
+
+.shar-main-title {
+  text-align: center;
+  color: #064627;
+  padding-top: 0.45rem;
+}
+
+.shar-main-banner {
+  width: 6.37rem;
+  margin: 0 auto;
+  margin-top: 0.25rem;
+  font-size: 0;
+  margin-bottom: 0.25rem;
+}
+
+.shar-main-tip {
+  text-align: center;
+}
+
+.shar-app-button {
+  width: 4.5rem;
+  height: 0.54rem;
+  line-height: 0.58rem;
+  font-size: 0.24rem;
+  margin-left: 0;
+  border-radius: 0.27rem;
+  margin-top: 0.2rem;
+}
+
+.shar-app-button-login {
+  color: #f0e268;
+  border: 1px solid #f0e268;
+  font-weight: 600;
+  text-align: center;
+}
+
+.shar-win-banner {
+  width: 6.62rem;
+  margin: 0 auto;
+  margin-top: 0.56rem;
+}
+
+.shar-down {
+  color: #fff;
+  position: relative;
+  margin-top: 0.4rem;
+}
+
+.shar-down .title {
+  opacity: 0.8;
+  margin-top: 0;
+  padding-top: 0.2rem;
+  text-align: center;
+  width: 100%;
+  font-size: 0.32rem;
+}
+
+.shar-down .cont {
+  opacity: 0.8;
+  padding: 0.2rem 0.2rem 0;
+  font-size: 0.28rem;
+  line-height: 2;
+}
+
+.shar-down .cont p {
+  padding-top: 0.2rem;
+}

@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="Expires" content="0">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Cache-control" content="no-cache">
+  <meta http-equiv="Cache" content="no-cache">
+  <title>测测谁是你的灵魂爱豆</title>
+</head>
+
+<body>
+  <div class="mg-idot-update">
+    <div class="enter-test">
+      <!--顶部留部分空白-->
+      <div class="top-blank"></div>
+      <div class="enter-test-title"></div>
+      <div class="enter-test-main">
+        <div class="index-rotate"></div>
+        <div class="inside-rotate"></div>
+        <div class="center-people"></div>
+        <img class="left-small-people-first" src="./images/small-people.png" />
+        <img class="right-small-people-first" src="./images/small-people.png" />
+        <div class="enter-test-button mg-idot-update-btn">
+          <div class="btn-word">开始测试</div>
+        </div>
+      </div>
+      <div class="enter-test-foot">
+        <div class="enter-test-foot-main">
+          <div class="enter-test-foot__bg"></div>
+          <div class="enter-test-foot__word">
+            每个人心中都有一个独一无二的爱豆，正如只有一个独一无二的你。
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="answer-question">
+      <div class="answer-question-bar">
+        <audio id="bgmusic-player" autoplay="autoplay" loop="loop">
+          <source src="./static/mg-idot-update/SakaeinAction.mp3">
+        </audio>
+        <audio id="click-player" autoplay="autoplay">
+          <source />
+        </audio>
+        <div class="bar-cell-one active-bar-cell">
+          <div class="bar-number active-bar-number">1</div>
+          <div class="bar-circle active-bar-circle"></div>
+        </div>
+        <div class="bar-cell-two">
+          <div class="bar-number">2</div>
+          <div class="bar-circle"></div>
+        </div>
+        <div class="bar-cell-three">
+          <div class="bar-number">3</div>
+          <div class="bar-circle"></div>
+        </div>
+        <div class="bar-cell-four">
+          <div class="bar-number">4</div>
+          <div class="bar-circle"></div>
+        </div>
+        <div class="bar-cell-five">
+          <div class="bar-number">5</div>
+          <div class="bar-circle"></div>
+        </div>
+        <div class="bar-cell-six">
+          <div class="bar-number">6</div>
+          <div class="bar-circle"></div>
+        </div>
+        <div class="bar-cell-seven">
+          <div class="bar-number">7</div>
+          <div class="bar-circle"></div>
+        </div>
+      </div>
+      <div class="answer-question-main-wrapper">
+        <div class="answer-question-main">
+          <div class="border-decoration">
+            <div class="question-number-border">
+              <div class="question-number-circle">
+                <div class="question-number-circle__word">1</div>
+              </div>
+            </div>
+            <img class="decoration-img-size top-left-decoration" src="./images/corner-one.png">
+            <img class="decoration-img-size top-right-decoration" src="./images/corner-two.png">
+            <img class="decoration-img-size bottom-left-decoration" src="./images/corner-three.png">
+            <img class="decoration-img-size bottom-right-decoration" src="./images/corner-four.png">
+          </div>
+          <!--第一题公用-->
+          <div class="question-one">
+            <div class="question-cell">
+              &nbsp&nbsp&nbsp&nbsp今天你受邀参加一场神秘的Party，你觉得自己的身份是？
+            </div>
+            <div class="answer-cell">
+              <div class="option-cell more-space">
+                <input type="radio" name="question-one" id="question-one-selectA" value="1" hidden />
+                <label for="question-one-selectA" class="option-cell__img"></label>
+                <span class="option-cell__word">A&nbsp&nbsp火火火火的一线歌手</span>
+              </div>
+              <div class="option-cell more-space">
+                <input type="radio" name="question-one" id="question-one-selectB" value="2" hidden />
+                <label for="question-one-selectB" class="option-cell__img"></label>
+                <span class="option-cell__word">B&nbsp&nbsp疯狂狂狂狂应援的粉丝儿</span>
+              </div>
+              <div class="option-cell more-space">
+                <input type="radio" name="question-one" id="question-one-selectC" value="3" hidden />
+                <label for="question-one-selectC" class="option-cell__img"></label>
+                <span class="option-cell__word">C&nbsp&nbsp忙忙忙忙透顶的经纪人</span>
+              </div>
+            </div>
+            <div class="goto-next-botton mg-idot-update-btn">
+              <div class="btn-word">下一题</div>
+            </div>
+          </div>
+          <!--明星答题-->
+          <div class="star-answer-line">
+            <div class="question-two">
+              <div class="question-cell">
+                <div class="star-question-fight"></div>
+                <div class="star-question-cell">
+                  &nbsp&nbsp&nbsp如果你有机会拥有一种特质，让粉丝更喜欢你，你希望具备以下哪种特质？
+                </div>
+              </div>
+              <div class="answer-cell more-options">
+                <div class="option-cell">
+                  <input type="radio" name="question-two" id="star-question-two-selectA" value="5" hidden />
+                  <label for="star-question-two-selectA" class="option-cell__img"></label>
+                  <span class="option-cell__word">A&nbsp&nbsp磁性的嗓音</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-two" id="star-question-two-selectB" value="2" hidden />
+                  <label for="star-question-two-selectB" class="option-cell__img"></label>
+                  <span class="option-cell__word">B&nbsp&nbsp穿越时空能力</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-two" id="star-question-two-selectC" value="4" hidden />
+                  <label for="star-question-two-selectC" class="option-cell__img"></label>
+                  <span class="option-cell__word">C&nbsp&nbsp飞行能力</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-two" id="star-question-two-selectD" value="3" hidden />
+                  <label for="star-question-two-selectD" class="option-cell__img"></label>
+                  <span class="option-cell__word">D&nbsp&nbsp读心术</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-two" id="star-question-two-selectE" value="1" hidden />
+                  <label for="star-question-two-selectE" class="option-cell__img"></label>
+                  <span class="option-cell__word">E&nbsp&nbsp隐身术</span>
+                </div>
+              </div>
+              <div class="goto-next-botton mg-idot-update-btn">
+                <div class="btn-word">下一题</div>
+              </div>
+            </div>
+            <div class="question-three">
+              <div class="question-cell">
+                <div class="star-question-fight"></div>
+                <div class="star-question-cell">
+                  &nbsp&nbsp&nbsp在神秘Party上，你要为粉丝准备一首歌，你会选？
+                </div>
+              </div>
+              <div class="answer-cell more-options answer-cell-move-up">
+                <div class="option-cell make-option-cell-heighten">
+                  <input type="radio" name="question-three" id="star-question-three-selectA" value="2" hidden />
+                  <label for="star-question-three-selectA" class="option-cell__img"></label>
+                  <span class="option-cell__word">A&nbsp&nbsp《Wait Wait Wait》在寒风中为爱坚守</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-three" id="star-question-three-selectB" value="3" hidden />
+                  <label for="star-question-three-selectB" class="option-cell__img"></label>
+                  <span class="option-cell__word">B&nbsp&nbsp一路风雨等一个《晴天》</span>
+                </div>
+                <div class="option-cell make-option-cell-heighten">
+                  <input type="radio" name="question-three" id="star-question-three-selectC" value="1" hidden />
+                  <label for="star-question-three-selectC" class="option-cell__img"></label>
+                  <span class="option-cell__word">C&nbsp&nbsp一切都是浮云，眼前都是《泡沫》</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-three" id="star-question-three-selectD" value="4" hidden />
+                  <label for="star-question-three-selectD" class="option-cell__img"></label>
+                  <span class="option-cell__word">D&nbsp&nbsp心里住着一颗《小太阳》</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-three" id="star-question-three-selectE" value="5" hidden />
+                  <label for="star-question-three-selectE" class="option-cell__img"></label>
+                  <span class="option-cell__word">E&nbsp&nbsp世界再大我又《怕什么》</span>
+                </div>
+              </div>
+              <div class="goto-next-botton mg-idot-update-btn">
+                <div class="btn-word">下一题</div>
+              </div>
+            </div>
+            <div class="question-four">
+              <div class="question-cell">
+                <div class="star-question-fight"></div>
+                <div class="star-question-cell">
+                  &nbsp&nbsp&nbsp在后台休息的时候，资深粉丝给你送来了饮料，你觉得是？
+                </div>
+              </div>
+              <div class="answer-cell more-options">
+                <div class="option-cell">
+                  <input type="radio" name="question-four" id="star-question-four-selectA" value="1" hidden />
+                  <label for="star-question-four-selectA" class="option-cell__img"></label>
+                  <span class="option-cell__word">A&nbsp&nbsp香醇暖心的现磨咖啡</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-four" id="star-question-four-selectB" value="2" hidden />
+                  <label for="star-question-four-selectB" class="option-cell__img"></label>
+                  <span class="option-cell__word">B&nbsp&nbsp热辣诱人的预调鸡尾酒</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-four" id="star-question-four-selectC" value="3" hidden />
+                  <label for="star-question-four-selectC" class="option-cell__img"></label>
+                  <span class="option-cell__word">C&nbsp&nbsp清爽可口的鲜榨果汁</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-four" id="star-question-four-selectD" value="4" hidden />
+                  <label for="star-question-four-selectD" class="option-cell__img"></label>
+                  <span class="option-cell__word">D&nbsp&nbsp回甘入怀的碧螺春</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-four" id="star-question-four-selectE" value="5" hidden />
+                  <label for="star-question-four-selectE" class="option-cell__img"></label>
+                  <span class="option-cell__word">E&nbsp&nbsp普普通通的矿泉水</span>
+                </div>
+              </div>
+              <div class="goto-next-botton mg-idot-update-btn">
+                <div class="btn-word">下一题</div>
+              </div>
+            </div>
+            <div class="question-five">
+              <div class="question-cell">
+                <div class="star-question-fight"></div>
+                <div class="star-question-cell">
+                  &nbsp&nbsp&nbsp这时隔壁化妆间传来嘈杂的声音，你认为发生了什么事情？
+                </div>
+              </div>
+              <div class="answer-cell more-options">
+                <div class="option-cell make-option-cell-heighten-another">
+                  <input type="radio" name="question-five" id="star-question-five-selectA" value="2" hidden />
+                  <label for="star-question-five-selectA" class="option-cell__img"></label>
+                  <span class="option-cell__word">A&nbsp&nbsp造型师不小心打翻了化妆盒</span>
+                </div>
+                <div class="option-cell make-option-cell-heighten-another">
+                  <input type="radio" name="question-five" id="star-question-five-selectB" value="3" hidden />
+                  <label for="star-question-five-selectB" class="option-cell__img"></label>
+                  <span class="option-cell__word">B&nbsp&nbsp即将上场的明星礼服被刮破</span>
+                </div>
+                <div class="option-cell make-option-cell-heighten-another">
+                  <input type="radio" name="question-five" id="star-question-five-selectC" value="4" hidden />
+                  <label for="star-question-five-selectC" class="option-cell__img"></label>
+                  <span class="option-cell__word">C&nbsp&nbsp粉丝争抢着和明星合影</span>
+                </div>
+                <div class="option-cell make-option-cell-heighten-another">
+                  <input type="radio" name="question-five" id="star-question-five-selectD" value="1" hidden />
+                  <label for="star-question-five-selectD" class="option-cell__img"></label>
+                  <span class="option-cell__word">D&nbsp&nbsp可能是有人吵架了</span>
+                </div>
+              </div>
+              <div class="goto-next-botton mg-idot-update-btn">
+                <div class="btn-word">下一题</div>
+              </div>
+            </div>
+            <div class="question-six">
+              <div class="question-cell">
+                <div class="star-question-fight"></div>
+                <div class="star-question-cell">
+                  &nbsp&nbsp&nbsp上台前你有些紧张，看到哪句话能让你的内心平静？
+                </div>
+              </div>
+              <div class="answer-cell more-options answer-cell-move-up">
+                <div class="option-cell option-cell-question-six">
+                  <input type="radio" name="question-six" id="star-question-six-selectA" value="1" hidden />
+                  <label for="star-question-six-selectA" class="option-cell__img"></label>
+                  <span class="option-cell__word">A&nbsp&nbsp人们总是追逐从他身边飞走的东西，却逃避追逐他的东西</span>
+                </div>
+                <div class="option-cell make-option-cell-heighten-more">
+                  <input type="radio" name="question-six" id="star-question-six-selectB" value="4" hidden />
+                  <label for="star-question-six-selectB" class="option-cell__img"></label>
+                  <span class="option-cell__word">B&nbsp&nbsp生活总是让我们遍体鳞伤，但到后来，那些受伤的地方一定会变成我们最强壮的地方</span>
+                </div>
+                <div class="option-cell option-cell-question-six">
+                  <input type="radio" name="question-six" id="star-question-six-selectC" value="2" hidden />
+                  <label for="star-question-six-selectC" class="option-cell__img"></label>
+                  <span class="option-cell__word">C&nbsp&nbsp这个世界没有公正之处，你也永远得不到两全之法</span>
+                </div>
+                <div class="option-cell option-cell-question-six">
+                  <input type="radio" name="question-six" id="star-question-six-selectD" value="3" hidden />
+                  <label for="star-question-six-selectD" class="option-cell__img"></label>
+                  <span class="option-cell__word">D&nbsp&nbsp心若没有栖息的地方，去哪里都是在流浪</span>
+                </div>
+              </div>
+              <div class="goto-next-botton mg-idot-update-btn">
+                <div class="btn-word">下一题</div>
+              </div>
+            </div>
+            <div class="question-seven">
+              <div class="question-cell">
+                <div class="star-question-fight"></div>
+                <div class="star-question-cell">
+                  &nbsp&nbsp&nbsp如果今晚注定要发生一件尴尬的事情，你最不希望发生什么？
+                </div>
+              </div>
+              <div class="answer-cell more-options">
+                <div class="option-cell">
+                  <input type="radio" name="question-seven" id="star-question-seven-selectA" value="2" hidden />
+                  <label for="star-question-seven-selectA" class="option-cell__img"></label>
+                  <span class="option-cell__word">A&nbsp&nbsp唱歌时忘词走音</span>
+                </div>
+                <div class="option-cell make-option-cell-heighten">
+                  <input type="radio" name="question-seven" id="star-question-seven-selectB" value="2" hidden />
+                  <label for="star-question-seven-selectB" class="option-cell__img"></label>
+                  <span class="option-cell__word">B&nbsp&nbsp舞蹈动作幅度较大导致裤子崩裂</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-seven" id="star-question-seven-selectC" value="2" hidden />
+                  <label for="star-question-seven-selectC" class="option-cell__img"></label>
+                  <span class="option-cell__word">C&nbsp&nbsp演唱会现场只有7名观众</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-seven" id="star-question-seven-selectD" value="2" hidden />
+                  <label for="star-question-seven-selectD" class="option-cell__img"></label>
+                  <span class="option-cell__word">D&nbsp&nbsp假唱时拿反话筒</span>
+                </div>
+              </div>
+              <div class="goto-next-botton mg-idot-update-btn">
+                <div class="btn-word">完成</div>
+              </div>
+            </div>
+          </div>
+          <!--粉丝答题-->
+          <div class="fans-answer-line">
+            <div class="question-two">
+              <div class="question-cell">
+                <div class="fans-question-fight-right"></div>
+                <div class="fans-question-fight-left"></div>
+                <div class="fans-question-cell">
+                  &nbsp&nbsp&nbsp爱豆的哪个特质对你有致命吸引力？
+                </div>
+              </div>
+              <div class="answer-cell more-options">
+                <div class="option-cell">
+                  <input type="radio" name="question-two" id="fans-question-two-selectA" value="5" hidden />
+                  <label for="fans-question-two-selectA" class="option-cell__img"></label>
+                  <span class="option-cell__word">A&nbsp&nbsp举世无双的颜值</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-two" id="fans-question-two-selectB" value="2" hidden />
+                  <label for="fans-question-two-selectB" class="option-cell__img"></label>
+                  <span class="option-cell__word">B&nbsp&nbsp出尘绝艳的才华</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-two" id="fans-question-two-selectC" value="4" hidden />
+                  <label for="fans-question-two-selectC" class="option-cell__img"></label>
+                  <span class="option-cell__word">C&nbsp&nbsp白玉无瑕的人品</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-two" id="fans-question-two-selectD" value="3" hidden />
+                  <label for="fans-question-two-selectD" class="option-cell__img"></label>
+                  <span class="option-cell__word">D&nbsp&nbsp晨曦般的少年感</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-two" id="fans-question-two-selectE" value="1" hidden />
+                  <label for="fans-question-two-selectE" class="option-cell__img"></label>
+                  <span class="option-cell__word">E&nbsp&nbsp温暖明媚的性格</span>
+                </div>
+              </div>
+              <div class="goto-next-botton mg-idot-update-btn">
+                <div class="btn-word">下一题</div>
+              </div>
+            </div>
+            <div class="question-three">
+              <div class="question-cell">
+                <div class="fans-question-fight-right"></div>
+                <div class="fans-question-fight-left"></div>
+                <div class="fans-question-cell">
+                  &nbsp&nbsp&nbsp在神秘Party上，爱豆要唱一首歌，你希望是？
+                </div>
+              </div>
+              <div class="answer-cell more-options answer-cell-move-up">
+                <div class="option-cell make-option-cell-heighten">
+                  <input type="radio" name="question-three" id="fans-question-three-selectA" value="2" hidden />
+                  <label for="fans-question-three-selectA" class="option-cell__img"></label>
+                  <span class="option-cell__word">A&nbsp&nbsp《Wait Wait Wait》在寒风中为爱坚守</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-three" id="fans-question-three-selectB" value="3" hidden />
+                  <label for="fans-question-three-selectB" class="option-cell__img"></label>
+                  <span class="option-cell__word">B&nbsp&nbsp一路风雨等一个《晴天》</span>
+                </div>
+                <div class="option-cell make-option-cell-heighten">
+                  <input type="radio" name="question-three" id="fans-question-three-selectC" value="1" hidden />
+                  <label for="fans-question-three-selectC" class="option-cell__img"></label>
+                  <span class="option-cell__word">C&nbsp&nbsp一切都是浮云，眼前都是《泡沫》</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-three" id="fans-question-three-selectD" value="4" hidden />
+                  <label for="fans-question-three-selectD" class="option-cell__img"></label>
+                  <span class="option-cell__word">D&nbsp&nbsp心里住着一颗《小太阳》</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-three" id="fans-question-three-selectE" value="5" hidden />
+                  <label for="fans-question-three-selectE" class="option-cell__img"></label>
+                  <span class="option-cell__word">E&nbsp&nbsp世界再大我又《怕什么》</span>
+                </div>
+              </div>
+              <div class="goto-next-botton mg-idot-update-btn">
+                <div class="btn-word">下一题</div>
+              </div>
+            </div>
+            <div class="question-four">
+              <div class="question-cell">
+                <div class="fans-question-fight-right"></div>
+                <div class="fans-question-fight-left"></div>
+                <div class="fans-question-cell">
+                  &nbsp&nbsp&nbsp今天你有幸能见到爱豆，你会给他/她点什么饮料？
+                </div>
+              </div>
+              <div class="answer-cell more-options">
+                <div class="option-cell">
+                  <input type="radio" name="question-four" id="fans-question-four-selectA" value="1" hidden />
+                  <label for="fans-question-four-selectA" class="option-cell__img"></label>
+                  <span class="option-cell__word">A&nbsp&nbsp香醇暖心的现磨咖啡</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-four" id="fans-question-four-selectB" value="2" hidden />
+                  <label for="fans-question-four-selectB" class="option-cell__img"></label>
+                  <span class="option-cell__word">B&nbsp&nbsp热辣诱人的预调鸡尾酒</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-four" id="fans-question-four-selectC" value="3" hidden />
+                  <label for="fans-question-four-selectC" class="option-cell__img"></label>
+                  <span class="option-cell__word">C&nbsp&nbsp清爽可口的鲜榨果汁</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-four" id="fans-question-four-selectD" value="4" hidden />
+                  <label for="fans-question-four-selectD" class="option-cell__img"></label>
+                  <span class="option-cell__word">D&nbsp&nbsp回甘入怀的碧螺春</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-four" id="fans-question-four-selectE" value="5" hidden />
+                  <label for="fans-question-four-selectE" class="option-cell__img"></label>
+                  <span class="option-cell__word">E&nbsp&nbsp普普通通的矿泉水</span>
+                </div>
+              </div>
+              <div class="goto-next-botton mg-idot-update-btn">
+                <div class="btn-word">下一题</div>
+              </div>
+            </div>
+            <div class="question-five">
+              <div class="question-cell">
+                <div class="fans-question-fight-right"></div>
+                <div class="fans-question-fight-left"></div>
+                <div class="fans-question-cell fans-question-keep-space">
+                  &nbsp&nbsp&nbsp在后台和爱豆合影的时候太紧张了，看到哪句话能让你的内心平静？
+                </div>
+              </div>
+              <div class="answer-cell more-options fans-six-answer-cell-move-up">
+                <div class="option-cell option-cell-question-six">
+                  <input type="radio" name="question-five" id="fans-question-five-selectA" value="1" hidden />
+                  <label for="fans-question-five-selectA" class="option-cell__img"></label>
+                  <span class="option-cell__word">A&nbsp&nbsp人们总是追逐从他身边飞走的东西，却逃避追逐他的东西</span>
+                </div>
+                <div class="option-cell make-option-cell-heighten-more">
+                  <input type="radio" name="question-five" id="fans-question-five-selectB" value="4" hidden />
+                  <label for="fans-question-five-selectB" class="option-cell__img"></label>
+                  <span class="option-cell__word">B&nbsp&nbsp生活总是让我们遍体鳞伤，但到后来，那些受伤的地方一定会变成我们最强壮的地方</span>
+                </div>
+                <div class="option-cell option-cell-question-six">
+                  <input type="radio" name="question-five" id="fans-question-five-selectC" value="2" hidden />
+                  <label for="fans-question-five-selectC" class="option-cell__img"></label>
+                  <span class="option-cell__word">C&nbsp&nbsp这个世界没有公正之处，你也永远得不到两全之法</span>
+                </div>
+                <div class="option-cell option-cell-question-six">
+                  <input type="radio" name="question-five" id="fans-question-five-selectD" value="3" hidden />
+                  <label for="fans-question-five-selectD" class="option-cell__img"></label>
+                  <span class="option-cell__word">D&nbsp&nbsp心若没有栖息的地方，去哪里都是在流浪</span>
+                </div>
+              </div>
+              <div class="goto-next-botton mg-idot-update-btn">
+                <div class="btn-word">下一题</div>
+              </div>
+            </div>
+            <div class="question-six">
+              <div class="question-cell">
+                <div class="fans-question-fight-right"></div>
+                <div class="fans-question-fight-left"></div>
+                <div class="fans-question-cell fans-question-keep-space">
+                  &nbsp&nbsp&nbsp这时隔壁化妆间传来嘈杂的声音，打破了你的幻想，你认为发生了什么？
+                </div>
+              </div>
+              <div class="answer-cell more-options">
+                <div class="option-cell make-option-cell-heighten-another">
+                  <input type="radio" name="question-six" id="fans-question-six-selectA" value="2" hidden />
+                  <label for="fans-question-six-selectA" class="option-cell__img"></label>
+                  <span class="option-cell__word">A&nbsp&nbsp造型师不小心打翻了化妆盒</span>
+                </div>
+                <div class="option-cell make-option-cell-heighten-another">
+                  <input type="radio" name="question-six" id="fans-question-six-selectB" value="3" hidden />
+                  <label for="fans-question-six-selectB" class="option-cell__img"></label>
+                  <span class="option-cell__word">B&nbsp&nbsp即将上场的明星礼服被刮破</span>
+                </div>
+                <div class="option-cell make-option-cell-heighten-another">
+                  <input type="radio" name="question-six" id="fans-question-six-selectC" value="4" hidden />
+                  <label for="fans-question-six-selectC" class="option-cell__img"></label>
+                  <span class="option-cell__word">C&nbsp&nbsp粉丝争抢着和明星合影</span>
+                </div>
+                <div class="option-cell make-option-cell-heighten-another">
+                  <input type="radio" name="question-six" id="fans-question-six-selectD" value="1" hidden />
+                  <label for="fans-question-six-selectD" class="option-cell__img"></label>
+                  <span class="option-cell__word">D&nbsp&nbsp可能是有人吵架了</span>
+                </div>
+              </div>
+              <div class="goto-next-botton mg-idot-update-btn">
+                <div class="btn-word">下一题</div>
+              </div>
+            </div>
+            <div class="question-seven">
+              <div class="question-cell">
+                <div class="fans-question-fight-right"></div>
+                <div class="fans-question-fight-left"></div>
+                <div class="fans-question-cell fans-question-keep-space">
+                  &nbsp&nbsp&nbsp如果今晚注定要发生一件尴尬的事情，你最不希望爱豆发生什么？
+                </div>
+              </div>
+              <div class="answer-cell more-options">
+                <div class="option-cell">
+                  <input type="radio" name="question-seven" id="fans-question-seven-selectA" value="2" hidden />
+                  <label for="fans-question-seven-selectA" class="option-cell__img"></label>
+                  <span class="option-cell__word">A&nbsp&nbsp唱歌时忘词走音</span>
+                </div>
+                <div class="option-cell make-option-cell-heighten">
+                  <input type="radio" name="question-seven" id="fans-question-seven-selectB" value="2" hidden />
+                  <label for="fans-question-seven-selectB" class="option-cell__img"></label>
+                  <span class="option-cell__word">B&nbsp&nbsp舞蹈动作幅度较大导致裤子崩裂</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-seven" id="fans-question-seven-selectC" value="2" hidden />
+                  <label for="fans-question-seven-selectC" class="option-cell__img"></label>
+                  <span class="option-cell__word">C&nbsp&nbsp演唱会现场只有7名观众</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-seven" id="fans-question-seven-selectD" value="2" hidden />
+                  <label for="fans-question-seven-selectD" class="option-cell__img"></label>
+                  <span class="option-cell__word">D&nbsp&nbsp假唱时拿反话筒</span>
+                </div>
+              </div>
+              <div class="goto-next-botton mg-idot-update-btn">
+                <div class="btn-word">完成</div>
+              </div>
+            </div>
+          </div>
+          <!--经纪人答题-->
+          <div class="broker-answer-line">
+            <div class="question-two">
+              <div class="question-cell">
+                <div class="broker-question-fight"></div>
+                <div class="broker-question-cell">
+                  &nbsp&nbsp&nbsp如果你家艺人有机会拥有一种特异功能，让粉丝更多，你希望他/她能具备以下哪种不为人知的特质？
+                </div>
+              </div>
+              <div class="answer-cell more-options">
+                <div class="option-cell">
+                  <input type="radio" name="question-two" id="broker-question-two-selectA" value="5" hidden />
+                  <label for="broker-question-two-selectA" class="option-cell__img"></label>
+                  <span class="option-cell__word">A&nbsp&nbsp磁性的嗓音</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-two" id="broker-question-two-selectB" value="2" hidden />
+                  <label for="broker-question-two-selectB" class="option-cell__img"></label>
+                  <span class="option-cell__word">B&nbsp&nbsp穿越时空能力</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-two" id="broker-question-two-selectC" value="4" hidden />
+                  <label for="broker-question-two-selectC" class="option-cell__img"></label>
+                  <span class="option-cell__word">C&nbsp&nbsp飞行能力</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-two" id="broker-question-two-selectD" value="3" hidden />
+                  <label for="broker-question-two-selectD" class="option-cell__img"></label>
+                  <span class="option-cell__word">D&nbsp&nbsp读心术</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-two" id="broker-question-two-selectE" value="1" hidden />
+                  <label for="broker-question-two-selectE" class="option-cell__img"></label>
+                  <span class="option-cell__word">E&nbsp&nbsp隐身术</span>
+                </div>
+              </div>
+              <div class="goto-next-botton mg-idot-update-btn">
+                <div class="btn-word">下一题</div>
+              </div>
+            </div>
+            <div class="question-three">
+              <div class="question-cell">
+                <div class="broker-question-fight"></div>
+                <div class="broker-question-cell">
+                  &nbsp&nbsp&nbsp在神秘Party上，艺人要为粉丝准备一首歌，你认为会是？
+                </div>
+              </div>
+              <div class="answer-cell more-options answer-cell-move-up">
+                <div class="option-cell make-option-cell-heighten">
+                  <input type="radio" name="question-three" id="broker-question-three-selectA" value="2" hidden />
+                  <label for="broker-question-three-selectA" class="option-cell__img"></label>
+                  <span class="option-cell__word">A&nbsp&nbsp《Wait Wait Wait》在寒风中为爱坚守</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-three" id="broker-question-three-selectB" value="3" hidden />
+                  <label for="broker-question-three-selectB" class="option-cell__img"></label>
+                  <span class="option-cell__word">B&nbsp&nbsp一路风雨等一个《晴天》</span>
+                </div>
+                <div class="option-cell make-option-cell-heighten">
+                  <input type="radio" name="question-three" id="broker-question-three-selectC" value="1" hidden />
+                  <label for="broker-question-three-selectC" class="option-cell__img"></label>
+                  <span class="option-cell__word">C&nbsp&nbsp一切都是浮云，眼前都是《泡沫》</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-three" id="broker-question-three-selectD" value="4" hidden />
+                  <label for="broker-question-three-selectD" class="option-cell__img"></label>
+                  <span class="option-cell__word">D&nbsp&nbsp心里住着一颗《小太阳》</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-three" id="broker-question-three-selectE" value="5" hidden />
+                  <label for="broker-question-three-selectE" class="option-cell__img"></label>
+                  <span class="option-cell__word">E&nbsp&nbsp世界再大我又《怕什么》</span>
+                </div>
+              </div>
+              <div class="goto-next-botton mg-idot-update-btn">
+                <div class="btn-word">下一题</div>
+              </div>
+            </div>
+            <div class="question-four">
+              <div class="question-cell">
+                <div class="broker-question-fight"></div>
+                <div class="broker-question-cell">
+                  &nbsp&nbsp&nbsp在后台休息的时候，资深粉丝给艺人送来了饮料，你觉得是？
+                </div>
+              </div>
+              <div class="answer-cell more-options">
+                <div class="option-cell">
+                  <input type="radio" name="question-four" id="broker-question-four-selectA" value="1" hidden />
+                  <label for="broker-question-four-selectA" class="option-cell__img"></label>
+                  <span class="option-cell__word">A&nbsp&nbsp香醇暖心的现磨咖啡</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-four" id="broker-question-four-selectB" value="2" hidden />
+                  <label for="broker-question-four-selectB" class="option-cell__img"></label>
+                  <span class="option-cell__word">B&nbsp&nbsp热辣诱人的预调鸡尾酒</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-four" id="broker-question-four-selectC" value="3" hidden />
+                  <label for="broker-question-four-selectC" class="option-cell__img"></label>
+                  <span class="option-cell__word">C&nbsp&nbsp清爽可口的鲜榨果汁</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-four" id="broker-question-four-selectD" value="4" hidden />
+                  <label for="broker-question-four-selectD" class="option-cell__img"></label>
+                  <span class="option-cell__word">D&nbsp&nbsp回甘入怀的碧螺春</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-four" id="broker-question-four-selectE" value="5" hidden />
+                  <label for="broker-question-four-selectE" class="option-cell__img"></label>
+                  <span class="option-cell__word">E&nbsp&nbsp普普通通的矿泉水</span>
+                </div>
+              </div>
+              <div class="goto-next-botton mg-idot-update-btn">
+                <div class="btn-word">下一题</div>
+              </div>
+            </div>
+            <div class="question-five">
+              <div class="question-cell">
+                <div class="broker-question-fight"></div>
+                <div class="broker-question-cell">
+                  &nbsp&nbsp&nbsp这时隔壁化妆间传来嘈杂的声音，你认为发生了什么事情？
+                </div>
+              </div>
+              <div class="answer-cell more-options">
+                <div class="option-cell make-option-cell-heighten-another">
+                  <input type="radio" name="question-five" id="broker-question-five-selectA" value="2" hidden />
+                  <label for="broker-question-five-selectA" class="option-cell__img"></label>
+                  <span class="option-cell__word">A&nbsp&nbsp造型师不小心打翻了化妆盒</span>
+                </div>
+                <div class="option-cell make-option-cell-heighten-another">
+                  <input type="radio" name="question-five" id="broker-question-five-selectB" value="3" hidden />
+                  <label for="broker-question-five-selectB" class="option-cell__img"></label>
+                  <span class="option-cell__word">B&nbsp&nbsp即将上场的明星礼服被刮破</span>
+                </div>
+                <div class="option-cell make-option-cell-heighten-another">
+                  <input type="radio" name="question-five" id="broker-question-five-selectC" value="4" hidden />
+                  <label for="broker-question-five-selectC" class="option-cell__img"></label>
+                  <span class="option-cell__word">C&nbsp&nbsp粉丝争抢着和明星合影</span>
+                </div>
+                <div class="option-cell make-option-cell-heighten-another">
+                  <input type="radio" name="question-five" id="broker-question-five-selectD" value="1" hidden />
+                  <label for="broker-question-five-selectD" class="option-cell__img"></label>
+                  <span class="option-cell__word">D&nbsp&nbsp可能是有人吵架了</span>
+                </div>
+              </div>
+              <div class="goto-next-botton mg-idot-update-btn">
+                <div class="btn-word">下一题</div>
+              </div>
+            </div>
+            <div class="question-six">
+              <div class="question-cell">
+                <div class="broker-question-fight"></div>
+                <div class="broker-question-cell">
+                  &nbsp&nbsp&nbsp上场前，你心里隐隐有点担心，看到哪句话能让你的内心平静？
+                </div>
+              </div>
+              <div class="answer-cell more-options answer-cell-move-up">
+                <div class="option-cell option-cell-question-six">
+                  <input type="radio" name="question-six" id="broker-question-six-selectA" value="1" hidden />
+                  <label for="broker-question-six-selectA" class="option-cell__img"></label>
+                  <span class="option-cell__word">A&nbsp&nbsp人们总是追逐从他身边飞走的东西，却逃避追逐他的东西</span>
+                </div>
+                <div class="option-cell make-option-cell-heighten-more">
+                  <input type="radio" name="question-six" id="broker-question-six-selectB" value="4" hidden />
+                  <label for="broker-question-six-selectB" class="option-cell__img"></label>
+                  <span class="option-cell__word">B&nbsp&nbsp生活总是让我们遍体鳞伤，但到后来，那些受伤的地方一定会变成我们最强壮的地方</span>
+                </div>
+                <div class="option-cell option-cell-question-six">
+                  <input type="radio" name="question-six" id="broker-question-six-selectC" value="2" hidden />
+                  <label for="broker-question-six-selectC" class="option-cell__img"></label>
+                  <span class="option-cell__word">C&nbsp&nbsp这个世界没有公正之处，你也永远得不到两全之法</span>
+                </div>
+                <div class="option-cell option-cell-question-six">
+                  <input type="radio" name="question-six" id="broker-question-six-selectD" value="3" hidden />
+                  <label for="broker-question-six-selectD" class="option-cell__img"></label>
+                  <span class="option-cell__word">D&nbsp&nbsp心若没有栖息的地方，去哪里都是在流浪</span>
+                </div>
+              </div>
+              <div class="goto-next-botton mg-idot-update-btn">
+                <div class="btn-word">下一题</div>
+              </div>
+            </div>
+            <div class="question-seven">
+              <div class="question-cell">
+                <div class="broker-question-fight"></div>
+                <div class="broker-question-cell">
+                  &nbsp&nbsp&nbsp如果今晚注定要发生一件尴尬的事情，你最不希望自家艺人发生什么？
+                </div>
+              </div>
+              <div class="answer-cell more-options">
+                <div class="option-cell">
+                  <input type="radio" name="question-seven" id="broker-question-seven-selectA" value="2" hidden />
+                  <label for="broker-question-seven-selectA" class="option-cell__img"></label>
+                  <span class="option-cell__word">A&nbsp&nbsp唱歌时忘词走音</span>
+                </div>
+                <div class="option-cell make-option-cell-heighten">
+                  <input type="radio" name="question-seven" id="broker-question-seven-selectB" value="2" hidden />
+                  <label for="broker-question-seven-selectB" class="option-cell__img"></label>
+                  <span class="option-cell__word">B&nbsp&nbsp舞蹈动作幅度较大导致裤子崩裂</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-seven" id="broker-question-seven-selectC" value="2" hidden />
+                  <label for="broker-question-seven-selectC" class="option-cell__img"></label>
+                  <span class="option-cell__word">C&nbsp&nbsp演唱会现场只有7名观众</span>
+                </div>
+                <div class="option-cell">
+                  <input type="radio" name="question-seven" id="broker-question-seven-selectD" value="2" hidden />
+                  <label for="broker-question-seven-selectD" class="option-cell__img"></label>
+                  <span class="option-cell__word">D&nbsp&nbsp假唱时拿反话筒</span>
+                </div>
+              </div>
+              <div class="goto-next-botton mg-idot-update-btn">
+                <div class="btn-word">完成</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="idot-container" class="idot-container" style="display: none">
+      <div id="idot-result" class="idot-result">
+        <div class="result-title">
+          <audio id="result-player" autoplay="autoplay" loop="loop">
+            <source />
+          </audio>
+          <div class="result-statistics">
+            <span class="statistics">40%</span>的人和你有一样的灵魂爱豆哟
+          </div>
+        </div>
+        <div class="result-main">
+          <div class="zhoujielun">
+            <div class="result-unscramble__word">才华横溢的完美主义者</div>
+            <div class="result-unscramble__bg"></div>
+            <div class="result-description">
+              <span style="background: #003333;opacity: 0.8;">
+                你才华横溢，但又是一个完美主义者，做一件事就一定要做好，要不然宁可不做。不过你又是一个内心细腻敏感的人，多少有些自卑和担忧潜藏在内心。你要相信，成功总要在天分的基础上靠后天的勤奋和努力一步步构建，就像杰伦那样。
+              </span>
+            </div>
+          </div>
+          <div class="caiyilin">
+            <div class="result-unscramble__word">强势外表下有一颗柔软的心</div>
+            <div class="result-unscramble__bg"></div>
+            <div class="result-description">
+              <span style="background: #003333;opacity: 0.8;">
+                你对自己要求甚高，对待任何事情总是不达目的不会罢休，工作、生活都是如此。但是在你强势的气场下，内心深处一直隐藏着一颗柔软纠结的少女心。你与Jolin一样，别人需要通过一定时间的接触，才会发现你身上的这种“反差萌”，逐渐了解甚至爱上你。
+              </span>
+            </div>
+          </div>
+          <div class="dengziqi">
+            <div class="result-unscramble__word">真性情的小才子</div>
+            <div class="result-unscramble__bg"></div>
+            <div class="result-description">
+              <span style="background: #003333;opacity: 0.8;">
+                你直接率真，积极乐观，爱说爱笑，更是脑洞大开。下一秒做起事来又变得认认真真。就像你的灵魂爱豆邓紫棋那样，出镜三秒就开始哈哈哈笑个不停，不仅能给出各种小点子，也经常带给身边人放松和快乐。
+              </span>
+            </div>
+          </div>
+          <div class="NinePercent">
+            <div class="result-unscramble__word">治愈系，暖暖的佛系少年</div>
+            <div class="result-unscramble__bg"></div>
+            <div class="result-description">
+              <span style="background: #003333;opacity: 0.8;">
+                你不仅拥有才华与颜值，也是一位阳光可爱的少年，治愈系的笑容总是给人一种暖暖的感觉，看似佛系的你，偶尔也会耍帅装酷。就像目前最火的男团NINE PERCENT九个怀揣梦想的大男孩那样，你也是生活中颜值担当、双商爆表的C位主角
+              </span>
+            </div>
+          </div>
+          <div class="jiajia">
+            <div class="result-unscramble__word">平平淡淡中流露真情</div>
+            <div class="result-unscramble__bg"></div>
+            <div class="result-description">
+              <span style="background: #003333;opacity: 0.8;">
+                你随性自然，总是轻松又开心的生活着，无论生活怎样的起起伏伏，你依然处乱不惊，悠然自得，平静以对。就跟“灵魂歌姬”家家一样，你专注于自己的梦想，平静的生活，倾注自己真情，同样是那个平凡又不普通的灵魂爱豆。
+              </span>
+            </div>
+          </div>
+          <div class="lijianqing">
+            <div class="result-unscramble__word">喧嚣时代中的安静少年</div>
+            <div class="result-unscramble__bg"></div>
+            <div class="result-description">
+              <span style="background: #003333;opacity: 0.8;">
+                你虽然看似低调内敛，柔情似水，但心底里蕴藏着一股坚持的硬气，在喧嚣的氛围中也能拥有持淡泊与平静的心态，就像来自小城的李剑青在《仍是异乡人》中展示的那样：面对生活中的困难，表现出一种“铁骨柔情”般的坚毅。
+              </span>
+            </div>
+          </div>
+          <div class="wuqi">
+            <div class="result-unscramble__word">认真对待每次人生的“抢位赛”</div>
+            <div class="result-unscramble__bg"></div>
+            <div class="result-description">
+              <span style="background: #003333;opacity: 0.8;">
+                你不仅拥有成熟般的老练，更有少年般的天真，本可以靠脸吃饭，却偏偏一直坚持努力，不忘初心。就像一路走来的吴奇那样，虽然历经诸多坎坷，但每次人生的“抢位赛”你都认真对待，把握每一次的机会，做自己的主角。因为时间终归会告诉你，坚持付出不是徒劳，是人生路上一点一滴的灿烂收获。
+              </span>
+            </div>
+          </div>
+          <div class="wuyuetian">
+            <div class="result-unscramble__word">时间带不走的青春倔强</div>
+            <div class="result-unscramble__bg"></div>
+            <div class="result-description">
+              <span style="background: #003333;opacity: 0.8;">
+                你就像五月天一样充满青春和活力，最不缺的就是才华和灵感。像刚成军时五月天一样，青涩的少年有过烦恼和迷茫，但无畏的青春，奔跑的梦想，永不放弃的希望，一直都是你和“五月天们”的倔强信仰。享受这份奔跑的音乐盛宴吧，时间终究会感谢你的倔强和温柔。
+              </span>
+            </div>
+          </div>
+          <div class="xiaobingzhi">
+            <div class="result-unscramble__word">义无反顾地追爱，无所顾忌地寻梦</div>
+            <div class="result-unscramble__bg"></div>
+            <div class="result-description">
+              <span style="background: #003333;opacity: 0.8;">
+                你是一个为了爱和理想努力不懈的人。爱情在你心里有着至高的地位，是一片充满热情的净土，为了爱你可以无所畏惧。同样不可以放弃的是你的梦想，即使有过迷茫和低谷，就像踏过苦涩的萧秉治，从容而淡定站在最耀眼的地方，永远不会被打败。
+              </span>
+            </div>
+          </div>
+          <div class="xvjiaying">
+            <div class="result-unscramble__word">任世事沧桑不改岁月静好</div>
+            <div class="result-unscramble__bg"></div>
+            <div class="result-description">
+              <span style="background: #003333;opacity: 0.8;">
+                你是一个让人看到你就会很开心的人，是朋友中的小太阳，晦暗阴霾到了你这里都会消失不见。你的身上有一层结界，外界纷纷扰扰影响不了内心恬适的你，就像星光熠熠的徐佳莹，风光无限却依然身骑白马做最甜美的人，你永远是豆蔻模样，在素年锦时，细品岁月静好。
+              </span>
+            </div>
+          </div>
+          <div class="xuezhiqian">
+            <div class="result-unscramble__word">颜值与才华完美的结合体</div>
+            <div class="result-unscramble__bg"></div>
+            <div class="result-description makeDescriptionUP">
+              <span style="background: #003333;opacity: 0.8;">
+                颜值与才华一身的你，真让人嫉妒。初识你的人对你的第一印象是活泼和幽默，就像一个调皮的邻家少年一样让人容易接近。但是对自己热爱的事，你会收起你的不安定，就像幽默的薛之谦和《认真的雪》。外表阳光的你内心敏感而又深情，心里最大的渴望就是爱与归属感，加油吧，时间会告诉你有才华的人一定会发光。
+              </span>
+            </div>
+          </div>
+          <div class="yuanyawei">
+            <div class="result-unscramble__word">她可以安静地吟唱，也能够热情地绽放 </div>
+            <div class="result-unscramble__bg"></div>
+            <div class="result-description">
+              <span style="background: #003333;opacity: 0.8;">
+                你就是有着巨大的能量却不轻易展示。你永远是人群中最闪耀的那一个，像袁娅维这个吃辣椒长大的湘妹子一样身上有股轴劲儿，追求所爱的道路上永远不会害怕和妥协，宁愿吃苦也不随大流，成就最不一样的自己！
+              </span>
+            </div>
+          </div>
+          <div class="zhuxindong">
+            <div class="result-unscramble__word">苍山洱海讲故事的温润少年</div>
+            <div class="result-unscramble__bg"></div>
+            <div class="result-description">
+              <span style="background: #003333;opacity: 0.8;">
+                你是一个不爱热闹低调的人，所以你一定可以和朱兴东一拍即合，他天生“沧嗓”自带浓烈“故事”属性，凭借极具分寸感的唱功，熨帖了无数都市男女的心。相信不喜欢喧闹的你一定会爱上这个安静讲故事的少年。
+              </span>
+            </div>
+          </div>
+          <div class="shananjie">
+            <div class="result-unscramble__word">不妥协的野性小宇宙</div>
+            <div class="result-unscramble__bg"></div>
+            <div class="result-description">
+              <span style="background: #003333;opacity: 0.8;">
+                你最不缺的就是才华，你和沙楠杰一样内心拥有一颗不轻易展现的才华小宇宙，你可以很好地控制自己的能量，梦想会是你一直不妥协会坚持的东西，就像大凉山的沙楠杰始终铭记民族音乐对他的启蒙，你绽放的那一刻，世界都会为你动容。
+              </span>
+            </div>
+          </div>
+          <div class="mowengwei">
+            <div class="result-unscramble__word">古怪精灵的才气</div>
+            <div class="result-unscramble__bg"></div>
+            <div class="result-description">
+              <span style="background: #003333;opacity: 0.8;">
+                你古怪精灵，大气洒脱，敢爱敢恨，显得很有个性，虽然有时候看起来很不正经，但依然不能掩盖你的才华和坚持。你就像莫文蔚一样，看似特立独行，但腹有诗书气自华，总是目标明确，依靠自己的努力成功。
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="result-foot">
+          <div class="result-foot-btn">
+            <div class="representative-music">
+              <div class="representative-music__word">舞娘</div>
+              <img class="representative-music__img" src="./images/result-music.png" />
+            </div>
+            <div id="once-again" class="once-again foot-btn">再测一次</div>
+            <div id="share-friend" class="share-friend foot-btn">分享给好友</div>
+            <div id="mghui-entrance" class="mghui-entrance foot-btn">为爱豆打call</div>
+            <div id="extract-tickets" class="extract-tickets foot-btn" style="display:none">免费抽门票</div>
+            <img class="left-small-people" src="./images/small-people.png" />
+            <img class="qr-code" src="./images/qr-code.png" />
+            <img class="right-small-people" src="./images/small-people.png" />
+            <div class="test-qr-code">长按二维码进入测试</div>
+          </div>
+          <div class="activity-description">*本次活动最终解释权归咪咕所有</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 公共部分 -->
+  <script src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+  <script>
+    var _hmt = _hmt || [];
+    (function () {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?491eb88fa00b2d96a4b5918bb492f29d";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+</body>
+
+</html>

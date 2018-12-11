@@ -1,0 +1,105 @@
+.give-main {
+  background-color: #6BB982;
+}
+
+.give-up {
+  font-size: 0;
+  position: relative;
+}
+
+.green-border {
+  border: 3px solid #2B733F;
+  border-radius: 8px;
+}
+
+.green-border img {
+  border-radius: 6px;
+}
+
+.give-main-item {
+  background-color: #77c38e;
+  padding: 0 0.3rem 0.3rem;
+}
+
+.give-item-title {
+  margin: 0 auto;
+  width: 3.03rem;
+  padding: 0.4rem 0;
+}
+
+.give-video-item+.give-video-item {
+  margin-top: 0.36rem;
+}
+
+.give-video-item__banner {
+  font-size: 0;
+  width: 6.8rem;
+  margin: 0 auto;
+}
+
+.give-video-item__banner img {
+  border-radius: 4px;
+}
+
+.give-title {
+  font-size: 0.28rem;
+  color: rgba(11, 57, 15, 1);
+  line-height: 0.42rem;
+  margin-top: 0.12rem;
+}
+
+.give-desc {
+  font-size: 0.24rem;
+  color: rgba(23, 86, 29, 1);
+  line-height: 0.42rem;
+}
+
+.button-bg {
+  margin: 0 auto;
+  margin-top: .4rem;
+  width: 2.6rem;
+  height: .66rem;
+  border-radius: .44rem;
+  background-color: #f0e268;
+  box-shadow: 0 0.04rem 0 #fccf1a;
+  color: #333;
+  line-height: .66rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-bg img {
+  width: 1.28rem;
+}
+
+.button-bg-max img {
+  width: 1.55rem;
+}
+
+.give-music,
+.give-read,
+.give-cartoon {
+  margin-top: 0.22rem;
+}
+
+.give-music-item__banner {
+  width: 2.07rem;
+  font-size: 0;
+}
+
+.give-read-item__banner img {
+  width: 2.07rem;
+  height: 2.76rem;
+}
+
+.give-music-list,
+.give-read-list,
+.give-cartoon-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.give-music-item {
+  width: 2.07rem;
+}

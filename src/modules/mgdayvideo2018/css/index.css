@@ -1,0 +1,460 @@
+.mgday-main {
+  background-color: #C4C3FD;
+  /* 渐变颜色#812fd5 */
+}
+
+.banner {
+  display: block;
+  width: 100%;
+  height: 5rem;
+  background-image: url('../images/banner.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/*折扣展示模块*/
+
+.activity-reg {
+  position: absolute;
+  bottom: 0.08rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1.84rem;
+  height: 0.46rem;
+}
+
+.share-btn {
+  display: none;
+  position: absolute;
+  top: 1rem;
+  right: 0;
+  width: 0.78rem;
+  height: 0.38rem;
+}
+
+.discount-cell-warpper {
+  padding-top: .4rem;
+  background-image: -webkit-linear-gradient(top, #812fd5 0%, #C4C3FD 100%);
+  margin-top: -0.02rem;
+}
+
+.discount-cell {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.6rem;
+  width: 92%;
+  border-radius: .26rem;
+  background: #fff;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.discount-title {
+  width: 6.62rem;
+  height: .6rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  background-image: url(../images/title-bg.png);
+  background-size: 100% 100%;
+  position: absolute;
+  font-size: .32rem;
+  line-height: .6rem;
+  top: -0.3rem;
+  left: 50%;
+  transform: translate(-50%);
+  overflow: hidden;
+}
+
+.discount-main {
+  padding-top: 0.6rem;
+}
+
+.discount-content-cell {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1.62rem;
+  padding-top: 0.2rem;
+  background-image: url(../images/oval.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: .24rem;
+  width: 92%;
+  overflow: hidden;
+}
+
+.discount-content-cell+.discount-content-cell {
+  margin-top: .4rem;
+}
+
+.discount-content-img-cell {
+  float: left;
+  width: 1.6rem;
+  height: 1.6rem;
+  background-size: cover;
+  box-sizing: border-box;
+  border-radius: 0.24rem;
+  margin-top: -.14rem;
+  margin-left: .1rem;
+}
+
+.discount-content__font {
+  float: left;
+  margin-top: 0.1rem;
+}
+
+.discount-content__title {
+  font-size: .3rem;
+  color: #fff;
+  line-height: .4rem;
+}
+
+.discount-content__font p {
+  font-size: 0.22rem;
+  line-height: 0.34rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 0.1rem;
+  color: #fff;
+  text-align: left;
+  opacity: 0.88;
+}
+
+.discount-content__font p span {
+  color: #FCCB20;
+}
+
+.discount-content__circle_shadow {
+  float: right;
+  width: 1.62rem;
+  height: 1.62rem;
+  margin-right: 0.21rem;
+  margin-top: -0.1rem;
+  background-image: url(../images/yellow-circle.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.discount-content__circle {
+  width: 1.39rem;
+  height: 1.39rem;
+  margin-top: 0.0666rem;
+  margin-left: 4.4610rem;
+  position: relative;
+}
+
+.discount-content__word {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  color: #9F5319;
+  font-size: 0.34rem;
+  width: 100%;
+}
+
+/*咪咕音乐特权大升级模块*/
+
+.music-update {
+  width: 100%;
+  margin-top: 0.6rem;
+}
+
+.music-update-wrapper {
+  width: 92%;
+  background-color: #fff;
+  border-radius: .26rem;
+  margin: .2rem auto;
+  padding-top: .24rem;
+  padding-bottom: .24rem;
+}
+
+.member-update-title {
+  width: 100%;
+  position: relative;
+}
+
+.member-update-title-main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+.member-update-title__sign {
+  width: 0.3rem;
+  height: 0.3rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.member-update-title__font {
+  font-size: 0.34rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  text-shadow: 0px 4px 6px rgba(30, 0, 60, 0.45);
+  opacity: 0.82;
+  margin-left: .2rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.music-update-content-cell {
+  margin: 0 auto;
+  width: 92%;
+  height: 1.7rem;
+  box-sizing: border-box;
+  border-radius: 0.24rem;
+  background: linear-gradient(-69deg, rgba(239, 80, 112, 1) 0%, rgba(254, 117, 83, 1) 100%);
+  /* box-shadow: 0px 5px 10px 0px rgba(246, 98, 97, 0.75); */
+}
+
+.music-update-content-cell:nth-child(even) {
+  background: linear-gradient(-69deg, rgba(255, 200, 85, 1) 0%, rgba(248, 176, 74, 1) 100%);
+}
+
+.music-update-content-cell.short {
+  margin-top: .24rem;
+}
+
+.left-decoration {
+  float: left;
+  position: relative;
+  left: 0.23rem;
+}
+
+.right-decoration {
+  float: left;
+  position: relative;
+  left: 6.2rem;
+}
+
+.music-update-content-cell__decoration {
+  top: -0.53rem;
+  width: 0.12rem;
+  height: 0.71rem;
+  background-image: url('../images/decoration.png');
+  background-repeat: no-repeat;
+  background-size: 0.12rem 0.71rem;
+}
+
+.music-update-content-cell__short-decoration {
+  top: -0.38rem;
+  width: 0.12rem;
+  height: 0.56rem;
+  background-image: url('../images/decoration.png');
+  background-repeat: no-repeat;
+  background-size: 0.12rem 0.56rem;
+}
+
+.music-update-content__img-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 0.15rem;
+  padding-top: 0.15rem;
+}
+
+.music-update-content__img {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+.music-update-content-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: .16rem;
+}
+
+.music-update-content__title {
+  /* float: left; */
+  color: rgba(255, 255, 255, 1);
+  font-size: 0.28rem;
+  font-weight: 400;
+  text-shadow: 0px 2px 5px rgba(221, 10, 108, 0.35);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-decline {
+  margin-top: 0.15rem;
+}
+
+.music-update-content__font {
+  width: 4rem;
+  font-size: 0.24rem;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #fff;
+  line-height: 0.34rem;
+  padding-top: .06rem;
+}
+
+/*广告标语子模块*/
+
+.advertising-slogan-cell {
+  width: 100%;
+  height: 1.58rem;
+  padding-top: .1rem;
+}
+
+.slogan-linear-cell {
+  width: 100%;
+  height: 0.6rem;
+  font-size: 0.25rem;
+  font-weight: 400;
+}
+
+.left-slogan-linear {
+  float: left;
+  text-align: right;
+  width: 42%;
+  color: #615AEF;
+}
+
+.middle-slogan-linear_crown {
+  position: relative;
+  top: -0.2rem;
+  left: 0.25rem;
+  width: 0.71rem;
+  height: 0.71rem;
+}
+
+.ringht-slogan-linear {
+  float: right;
+  width: 42%;
+  color: #615AEF;
+}
+
+/*按钮子模块*/
+
+.birth-foot-btn .word-music {
+  background: linear-gradient(90deg, rgba(255, 201, 86, 1) 0%, rgba(248, 176, 74, 1) 100%) !important;
+}
+
+.birth-foot-btn .word-read {
+  background: linear-gradient(90deg, rgba(123, 121, 244, 1) 0%, rgba(150, 123, 252, 1) 100%) !important;
+}
+
+/*咪咕阅读模块*/
+
+.migu-read-member {
+  width: 100%;
+  margin-top: 0.6rem;
+  margin-bottom: 0.3rem;
+}
+
+.relocate-sign {
+  left: 1.24rem;
+}
+
+.relocate-font {
+  left: 1.35rem;
+}
+
+.migu-read-subtitle {
+  width: 100%;
+  height: 0.7rem;
+  text-align: center;
+  padding-top: 0.25rem;
+  font-size: 0.25rem;
+  font-weight: 400;
+  color: #615AEF;
+  line-height: 0.40rem;
+}
+
+.migu-read-member-main {
+  margin: 0 auto;
+  width: 92%;
+  padding-bottom: .56rem;
+  box-sizing: border-box;
+  border-radius: 0.24rem;
+  background-color: #fff;
+}
+
+.migu-read-bar {
+  height: 3.01rem;
+}
+
+.migu-read-bar-title {
+  position: relative;
+  top: 0.2rem;
+  width: 100%;
+  height: 0.91rem;
+  text-align: center;
+  font-size: 0.3rem;
+  font-weight: 400;
+  color: #FFBB00;
+  line-height: 0.4rem;
+}
+
+.migu-read-bar-content {
+  margin: 0 auto;
+  width: 6.14rem;
+  height: 2.10rem;
+  background-image: linear-gradient(90deg, rgba(144, 144, 246, 1) 0%, rgba(163, 147, 251, 1) 100%);
+  background-repeat: no-repeat;
+  box-shadow: 0px 5px 10px 0px rgba(157, 141, 250, 0.75);
+  border-radius: .24rem;
+}
+
+.migu-read-img-size {
+  width: 1.3rem;
+  height: 1.7rem;
+}
+
+.first-img-position {
+  position: relative;
+  top: 0.2rem;
+  left: 0.2rem;
+}
+
+.second-img-position {
+  position: relative;
+  top: 0.2rem;
+  left: 0.3rem;
+}
+
+.third-img-position {
+  position: relative;
+  top: 0.2rem;
+  left: 0.4rem;
+}
+
+.fourth-img-position {
+  position: relative;
+  top: 0.2rem;
+  left: 0.5rem;
+}
+
+/*咪咕阅读按钮子模块*/
+
+.foot-message {
+  margin: 0 auto;
+  margin-top: 0.1rem;
+  width: 6.31rem;
+  height: 1.44rem;
+  font-size: 0.26rem;
+  font-weight: 400;
+  color: #333;
+  line-height: 0.4rem;
+  opacity: 0.88;
+  text-align: center;
+}
+
+.title-widget-left {
+  width: .44rem;
+  height: .13rem;
+}
+
+.title-widget-right {
+  width: .44rem;
+  height: .13rem;
+  transform: scale(-1,1);
+}

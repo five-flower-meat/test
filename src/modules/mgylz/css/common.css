@@ -1,0 +1,18 @@
+.ylz-bar {
+  height: 0.88rem;
+  line-height: 0.88rem;
+  text-align: center;
+  position: relative;
+  background: #fff;
+}
+
+.ylz-bar__icon {
+  position: absolute;
+  left: 0.3rem;
+  top: 0.1rem;
+  width: 0.18rem;
+}
+
+.ylz-bar__word {
+  font-size: 0.36rem;
+}

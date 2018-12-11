@@ -1,0 +1,46 @@
+.invi {
+  height: 100%;
+}
+
+.invi-main {
+  background-color: #7ecc98;
+  min-height: calc(100% - 1.28rem);
+  padding-bottom: .4rem;
+}
+
+.invi-up-kv {
+  padding-top: 0.4rem;
+  width: 6.11rem;
+  margin: 0 auto;
+}
+
+.invi-up-kv-title {
+  text-align: center;
+  color: #b8f0ca;
+  font-size: 0.26rem;
+  line-height: 1.5;
+  margin-top: 0.1rem;
+}
+
+/* QR */
+
+.invi-qr-title {
+  width: 3.01rem;
+  margin: 0 auto;
+  margin-top: 0.5rem;
+}
+
+.invi-qr-code {
+  width: 2.8rem;
+  height: 2.8rem;
+  margin: 0 auto;
+  margin-top: 0.4rem;
+}
+
+.invi-qr-word,
+.invi-unlogin-recent {
+  margin-top: 0.3rem;
+  color: #fff;
+  text-align: center;
+  line-height: 1.5;
+}

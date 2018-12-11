@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "fashion";
+  src: url('./fashion.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fashion-font {
+  font-family: "fashion";
+}

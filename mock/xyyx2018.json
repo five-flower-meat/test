@@ -1,0 +1,118 @@
+[
+  {
+    "url": "/migu/campusMarketing/loginJudge.action",
+    "desc": "校园营销接口",
+    "mock": true,
+    "res": {
+      "data": {
+        "userInfo": {
+          "msisdn": "13675173833",
+          "passid": "98972793307190",
+          "nickname": "用户13675173833",
+          "loginid": "13675173833",
+          "relateToMiguPassport": "1",
+          "lastactivetime": "2018-08-2014:11:03",
+          "usessionid": "UDnid00000015347454632526ljQWTG5H0YfhCfA5gFXaAjPIVW2BEkB",
+          "msisdntype": "0",
+          "province": "19",
+          "email": "",
+          "implicit": "0",
+          "channelCode": null,
+          "authtype": "WAPGW",
+          "authtime": "2018-08-20 14:11:03",
+          "loginidtype": "0",
+          "headimageurl": ""
+        },
+        "isChinaMobile": "true",
+        "returnUrl": "https://www.baidu.com"
+      },
+      "code": "202",
+      "msg": "未登录"
+    }
+  },
+  {
+    "url": "/migu/campusMarketing/getLoginUrl.action",
+    "desc": "校园营销接口",
+    "mock": true,
+    "res": {
+      "data": {
+        "loginUrl": "https://112.13.96.201:10443/login?sourceid=208904&apptype=1&forceAuthn=true&display=wap&authType=MiguPassport"
+      },
+      "code": "200",
+      "msg": "成功"
+    }
+  },
+  {
+    "url": "/migu/campusMarketing/queryInvitingDetails.action",
+    "desc": "校园营销接口",
+    "mock": true,
+    "res": {
+      "data": {
+        "total": 4,
+        "invitingList": [
+          {
+            "userName": "用户A",
+            "clientType": "咪咕阅读",
+            "loginTime": "2018-07-01 12:00"
+          },
+          {
+            "userName": "用户B",
+            "clientType": "咪咕音乐",
+            "loginTime": "2018-08-01 12:00"
+          },
+          {
+            "userName": "用户A",
+            "clientType": "咪咕阅读",
+            "loginTime": "2018-07-01 12:00"
+          },
+          {
+            "userName": "用户B",
+            "clientType": "咪咕音乐",
+            "loginTime": "2018-08-01 12:00"
+          }
+        ]
+      },
+      "code": "200",
+      "msg": "成功"
+    }
+  },
+  {
+    "url": "/migu/campusMarketing/queryReceiveDetails.action",
+    "desc": "校园营销接口",
+    "mock": true,
+    "res": {
+      "data": {
+        "invitingList": [
+          {
+            "money": "101元",
+            "loginTime": "2018-07-01 12:00"
+          },
+          {
+            "money": "10元",
+            "loginTime": "2018-08-01 12:00"
+          },
+          {
+            "money": "101元",
+            "loginTime": "2018-07-01 12:00"
+          },
+          {
+            "money": "10元",
+            "loginTime": "2018-08-01 12:00"
+          }
+        ]
+      },
+      "code": "200",
+      "msg": "成功"
+    }
+  },
+  {
+    "url": "/migu/campusMarketing/exchangeFee.action",
+    "desc": "校园营销接口",
+    "mock": true,
+    "res": {
+      "data": {},
+      "code": "200",
+      "msg": "成功"
+    }
+  }
+]

@@ -1,0 +1,98 @@
+.lotty {
+  background: #fec86e;
+  min-height: 100vh;
+}
+
+.lotty-main {
+  background-image: url(../images/bg-prize.png);
+  position: absolute;
+  background-repeat: no-repeat;
+  width: 7.5rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.lotty-wheel {
+  position: relative;
+  width: 308px;
+  height: 362px;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.lotty-wheel-main {
+  width: 308px;
+  height: 362px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.lotty-wheel-circle {
+  position: relative;
+}
+
+.lotty-wheel-circle .outer {
+  z-index: 10;
+  position: relative;
+  width: 308px;
+  height: 308px;
+}
+
+.lotty-wheel-circle .inter {
+  z-index: 11;
+  position: absolute;
+  width: 270px;
+  height: 270px;
+  left: 50%;
+  top: 49%; /* 兼容图片尺寸 */
+  transform: translate(-50%, -50%);
+}
+
+.lotty-wheel-circle .inter img {
+  transition: all 8s;
+}
+
+.lotty-wheel-btn {
+  width: 105px;
+  height: 122px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 90px;
+  z-index: 20;
+}
+
+.lotty-wheel-bottom {
+  width: 176px;
+  height: 122px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 0;
+  z-index: 1;
+}
+
+.lotty-detail {
+  margin: 0 auto;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.lotty-detail-title {
+  width: 2.22rem;
+  height: 0.31rem;
+  margin: 0 auto;
+}
+
+.lotty-detail-content {
+  font-size: .28rem;
+  line-height: 0.52rem;
+  margin-top: .4rem;
+  color: #302702;
+  padding-left: 1.3rem;
+}
+
+.lotty-detail-item span {
+  margin-left: .6rem;
+}

@@ -1,0 +1,6 @@
+/dist/
+/config/
+/build/
+/*.js
+/node_modules
+/src/common/js/share/*

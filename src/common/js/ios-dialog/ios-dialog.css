@@ -1,0 +1,80 @@
+.ios-dialog {
+  z-index: 1000;
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, .6);
+  overflow: auto;
+}
+
+.ios-dialog-main {
+  width: 255px;
+  background: #fff;
+  border-radius: 6px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  z-index: 20;
+}
+
+.ios-dialog-line {
+  width: 255px;
+  height: 1px;
+  background: rgba(212, 212, 212, 1);
+}
+
+.ios-dialog-desc {
+  font-size: 14px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(41, 40, 40, 1);
+  line-height: 22px;
+  padding: 23px 10px;
+  text-align: center;
+}
+
+.ios-dialog-confirm {
+  font-size: 15px;
+  color: #0078ED;
+  height: 43px;
+  line-height: 43px;
+  text-align: center;
+}
+
+.ios-dialog-left, .ios-dialog-right {
+  flex: 1;
+  line-height: 43px;
+  text-align: center;
+  color: #0078ED;
+}
+
+.ios-dialog-confirm-grid {
+  display: flex;
+  font-size: 15px;
+}
+
+.ios-dialog-confirm-line {
+  width: 1px;
+  height: 43px;
+  background: rgba(212, 212, 212, 1);
+}
+
+@media (max-width: 480px) {
+  .ios-dialog-line {
+    transform: scaleY(.5);
+    -webkit-transform: scaleY(.5);
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+  }
+  .ios-dialog-confirm-line {
+    transform: scaleX(.5);
+    -webkit-transform: scaleX(.5);
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+  }
+}

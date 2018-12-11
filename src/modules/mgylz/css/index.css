@@ -1,0 +1,144 @@
+.lotty {
+  background: #fec86e;
+  min-height: 100vh;
+}
+
+.ylz-main {
+  background-image: url(../images/bg.png);
+  background-size: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  width: 7.5rem;
+  /* min-height: calc(100vh - 0.88rem); */
+}
+
+.sign-btn {
+  width: 6.2rem;
+  height: .9rem;
+  background: linear-gradient(0deg, rgba(1, 129, 254, 1) 0%, rgba(14, 202, 239, 1) 100%);
+  box-shadow: 0px 0px 0px 0px rgba(33, 219, 255, 1), 0px 0px 0px 0px rgba(0, 122, 233, 1);
+  border-radius: .44rem;
+  margin: 0 auto;
+  margin-top: 7.2rem;
+  position: relative;
+}
+
+.sign-btn .word {
+  height: .9rem;
+  font-size: .36rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  line-height: .36rem;
+  text-align: center;
+  line-height: .9rem;
+}
+
+.sign-btn .word.completed {
+  opacity: 0.4;
+}
+
+.prize-board {
+  width: 5.2rem;
+  border-radius: 0.12rem;
+  background: rgba(222, 246, 253, 1);
+  margin: 0 auto;
+  margin-top: .27rem;
+  padding-bottom: 0.34rem;
+}
+
+.board-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: .3rem;
+}
+
+.board-title__word {
+  font-weight: 500;
+  margin-left: .35rem;
+  margin-right: .35rem;
+  font-size: 0.3rem;
+  color: rgba(43, 34, 3, 1);
+}
+
+.board-title__line {
+  width: 1.2rem;
+  height: 1px;
+  background: rgba(103, 103, 103, 1);
+}
+
+.board-conent {
+  margin-left: 0.9rem;
+  line-height: .52rem;
+  margin-top: .2rem;
+  font-size: .26rem;
+  color: rgba(48, 39, 2, 1);
+}
+
+.board-item span {
+  margin-left: 10px;
+}
+
+.both-link {
+  width: 0.1rem;
+  height: 0.47rem;
+  background: rgba(247, 169, 16, 1);
+  border-bottom-left-radius: 0.05rem;
+  border-bottom-right-radius: 0.05rem;
+  position: absolute;
+  z-index: 999;
+}
+
+.ylz-link-left {
+  left: 1.45rem;
+}
+
+.ylz-link-right {
+  right: 1.45rem;
+}
+
+.ylz-link .square {
+  width: 0.2rem;
+  height: 0.18rem;
+  background: rgba(252, 216, 136, 1);
+  border-radius: 50%;
+  position: absolute;
+  bottom: -0.06rem;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 1;
+}
+
+.ylz-link {
+  width: 0.1rem;
+  height: 0.47rem;
+  position: absolute;
+  z-index: 0;
+}
+
+/* act-detail */
+
+.act-detail {
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+
+.act-detail-title {
+  width: 3.23rem;
+  height: 0.41rem;
+  margin: 0 auto;
+}
+
+.act-detail-content {
+  font-size: .26rem;
+  line-height: 0.46rem;
+  margin-top: .4rem;
+  color: rgba(48, 39, 2, 1);
+}
+
+@media (max-width: 375px) {
+  .board-title__line {
+    transform: scaleY(.5);
+    transform-origin: 0 0;
+  }
+}
